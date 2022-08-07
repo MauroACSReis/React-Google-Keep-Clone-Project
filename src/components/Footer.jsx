@@ -1,13 +1,12 @@
-// Import Modules
-import React from 'react'
+import React from "react";
 
-// Constants & Variables
-const currentYear = new Date().getFullYear()
-
-// Render
-function Foot() {
-  return <p>Copyright © {currentYear}</p>
+function Footer() {
+  const year = new Date().getFullYear();
+  return (
+    <footer>
+      <p>Copyright ⓒ {year}</p>
+    </footer>
+  );
 }
 
-// Export
-export default Foot
+export default Footer;
